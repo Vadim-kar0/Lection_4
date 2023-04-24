@@ -106,7 +106,7 @@
 // {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 // };
 
-// void PrintImage(int[,] image) // Метод позволяет вывести массив в консоль
+// void PrintImage(int[,] image) // Метод позволяет вывести картинку из единиц в консоль
 // {
 //     for (int i = 0; i < image.GetLength(0); i++)
 //     {
@@ -120,7 +120,7 @@
 //     }
 // }
 
-// void FillImage(int row, int col) // Метод позволяет заполнить случайными числами массив 
+// void FillImage(int row, int col) // Метод позволяет заполнить картинку из единиц числами 
 // {
 //     if (pic[row, col] == 0)
 //     {
@@ -172,7 +172,7 @@
 //     else return Fibonacci(n - 1) + Fibonacci(n - 2);
 // }
 
-// for (int i = 1; i < 50; i++)
+// for (int i = 1; i < 40; i++)
 // {
 //     Console.WriteLine($"{i} = {Fibonacci(i)}");
 // }
